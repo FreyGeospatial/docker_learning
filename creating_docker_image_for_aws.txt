@@ -15,4 +15,4 @@ ENV AWS_SECRET_ACCESS_KEY
 ENV AWS_DEFAULT_REGION
 ENV AWS_SESSION_TOKEN
 
-need to be passed as ENV vars during runtime in CLI or dockerfile
+need to be passed as ENV vars during runtime in CLI or dockerfile -- only pass these for local debug!!
