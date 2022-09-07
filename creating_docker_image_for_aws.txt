@@ -1,6 +1,6 @@
 https://stackoverflow.com/questions/49915011/how-to-manage-aws-credentials-when-running-docker-container-with-visual-studio-2/49956609#49956609
 
-my yaml:
+docker-compose.override.yml -- is this necessary??
 ```
 version: '3'
 
@@ -10,4 +10,9 @@ services:
       - C:/Users/<user>/.aws
 ```
 
-region, token, scecret ID and keys need to be passed as ENV vars during runtime in CLI or dockerfile
+ENV AWS_ACCESS_KEY_ID
+ENV AWS_SECRET_ACCESS_KEY
+ENV AWS_DEFAULT_REGION
+ENV AWS_SESSION_TOKEN
+
+need to be passed as ENV vars during runtime in CLI or dockerfile
