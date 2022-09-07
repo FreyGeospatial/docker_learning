@@ -1,0 +1,13 @@
+https://stackoverflow.com/questions/49915011/how-to-manage-aws-credentials-when-running-docker-container-with-visual-studio-2/49956609#49956609
+
+my yaml:
+```
+version: '3'
+
+services:
+  mydockerapp:
+    volumes:
+      - C:/Users/<user>/.aws
+```
+
+region, token, scecret ID and keys need to be passed as ENV vars during runtime in CLI or dockerfile
