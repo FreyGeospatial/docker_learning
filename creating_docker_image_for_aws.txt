@@ -16,3 +16,6 @@ ENV AWS_DEFAULT_REGION
 ENV AWS_SESSION_TOKEN
 
 need to be passed as ENV vars during runtime in CLI or dockerfile -- only pass these for local debug!!
+
+Also, please check this: https://docs.docker.com/develop/develop-images/build_enhancements/
+It might have better options for passing credentials
