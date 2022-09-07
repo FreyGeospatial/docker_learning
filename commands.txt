@@ -1,0 +1,4 @@
+docker build . (build image of all files in directory)
+docker build --no-cache . (build image of all files in directory, without relying on cache. fresh build)
+docker images (lists all images)
+docker run <image>
