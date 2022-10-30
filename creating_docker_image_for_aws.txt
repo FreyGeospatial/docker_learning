@@ -1,6 +1,5 @@
 https://stackoverflow.com/questions/49915011/how-to-manage-aws-credentials-when-running-docker-container-with-visual-studio-2/49956609#49956609
 
-docker-compose.override.yml -- is this necessary??
 ```
 version: '3'
 
