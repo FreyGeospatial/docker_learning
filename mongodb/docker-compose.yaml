@@ -4,3 +4,11 @@ services:
     container_name: mongodb
     ports:
       - "27017:27017"
+
+    # somehwat optional, but necessary for containers to communicate with each other though
+    networks:
+      - test_network
+
+# optional, necessary for containers to communicate with each other
+networks:
+  test_network:
